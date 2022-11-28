@@ -13,6 +13,13 @@
         android:theme="@style/Theme.Formulario"
         tools:targetApi="31">
         <activity
+            android:name=".Recycle"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".checkBox_Recibo"
             android:exported="false">
             <meta-data
@@ -20,8 +27,15 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".FormSubmited"
+            android:name=".checkboxMenu"
             android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FormSubmited"
+            android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -29,12 +43,40 @@
         <activity
             android:name=".Formulari"
             android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Grid"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Relative"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Table"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Heladeria"
+            android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

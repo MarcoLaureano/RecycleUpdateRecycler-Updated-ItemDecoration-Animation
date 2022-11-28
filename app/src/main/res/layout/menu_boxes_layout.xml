@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkboxMenu">
+
+
+    <RadioGroup
+        android:layout_width="210dp"
+        android:layout_height="255dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="320dp">
+
+        <CheckBox
+            android:id="@+id/cboxCheddar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ Cheddar" />
+
+        <CheckBox
+            android:id="@+id/cboxBurger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1+ Burger" />
+
+        <CheckBox
+            android:id="@+id/cboxVerdura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+ Verdura" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="431dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="252dp"
+        android:text="Get Course" />
+
+</RelativeLayout>

@@ -8,18 +8,69 @@
 
     <TextView
         android:id="@+id/textRecibo"
-        android:layout_width="198dp"
-        android:layout_height="119dp"
+        android:layout_width="241dp"
+        android:layout_height="88dp"
         android:layout_marginTop="110dp"
         android:layout_marginBottom="557dp"
-        android:text="TextView"
         android:hint="Recibo"
-        android:textAlignment="center"
+        android:textAlignment="textStart"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintHorizontal_bias="0.206"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/heladoRecibo"
+        android:layout_width="329dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="404dp"
+        android:hint="Helado"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="85dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="91dp"
+        android:text="Condimento:"
+        app:layout_constraintBottom_toTopOf="@+id/textRecibo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="327dp"
+        android:text="Helado:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textRecibo" />
+
+    <Button
+        android:id="@+id/nextPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="277dp"
+        android:layout_marginBottom="286dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

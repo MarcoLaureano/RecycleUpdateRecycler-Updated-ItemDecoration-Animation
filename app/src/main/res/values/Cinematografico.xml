@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cinema_arrays">
+        <item>Horror</item>
+        <item>SuperHeroes</item>
+        <item>Comedia</item>
+        <item>Romance</item>
+    </string-array>
+</resources>
